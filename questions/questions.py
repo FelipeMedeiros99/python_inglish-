@@ -106,6 +106,10 @@ def creating_questions():
         pickle.dump(questions, file)
 
 
+
+
+
+
 def reading_questions():
     with open('questions.pickle', 'rb') as file:
         questions = pickle.load(file)
@@ -119,8 +123,7 @@ def remove_question(question_to_remove):
     # reading questions
     with open('questions.pickle', 'rb') as file:
         questions = pickle.load(file)
-        print(f'temos {len(questions)} questoes')
-
+        
     # filter question selected
     for question in questions:
         if not question_to_remove['index'] == question['index']:

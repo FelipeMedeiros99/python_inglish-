@@ -15,7 +15,7 @@ if __name__ == "__main__":
     theme1 = {'background': 'white', 'text-color': 'black', 'background-button': '#53079F'}
     theme2 = {'background': 'white', 'text-color': 'black', 'background-button': '#b30036'}
 
-    # players name
+    # players name  
     player1 = 'Player 1'
     player2 = 'Player 2'
     
@@ -51,15 +51,12 @@ if __name__ == "__main__":
 
         except TypeError as err:
 
-            print(err)
-
-
             if player1_score > player2_score:
                 victory_player(player1, player1_score, theme1)
 
             elif player2_score > player1_score:
                 victory_player(player2, player2_score, theme2)
-
+           
             else:
                 draw(theme1, player1_score)
 
