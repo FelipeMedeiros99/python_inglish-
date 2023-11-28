@@ -3,7 +3,7 @@ from PySimpleGUI import Image, Text, Button, Window, WINDOW_CLOSED
 
 def start_window():
     layout = [[Image('imagem1.png')],
-              [Text('THE KNOW-IT-ALL', background_color='white')],
+              [Text('THE KNOW-IT-ALL SHOW', background_color='white')],
               [Button('START', size=(10, 1), button_color='#00B2FF')],
               [Button('EXIT', size=(10, 1), button_color='#BE0303')],
             ]

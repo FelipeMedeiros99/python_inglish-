@@ -13,7 +13,7 @@ def message_window():
               [ Button('LET`S GO!!!', key='start', button_color='#00B2FF')]
             ]
 
-    window =  Window('THE KNOW-IT-ALL', 
+    window =  Window('THE KNOW-IT-ALL SHOW', 
                        layout=layout, element_justification='c',  
                        background_color='white',
                        size=(300, 270))

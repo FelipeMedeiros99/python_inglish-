@@ -16,7 +16,7 @@ def questions_window(question, player, theme, points):
               ]
     
 
-    window =  Window('THE KNOW-IT-ALL', 
+    window =  Window('THE KNOW-IT-ALL SHOW', 
                        layout=layout, 
                        element_justification='c', 
                        background_color=theme['background'],
@@ -49,8 +49,10 @@ if __name__=="__main__":
     # vars
     theme1 = {'background': 'white', 'text-color': 'black', 'background-button': '#53079F'}
     theme2 = {'background': 'white', 'text-color': 'black', 'background-button': '#b30036'}
+    
     player1 = 'Jogador 1'
     player2 = 'Jogador 2'
+    
     questao = {'title':'What is the capital of France?', 
                'alternatives':['Berlin', 'Madrid', 'Paris', 'Rome'],
                'correct_answer':'Paris'}
